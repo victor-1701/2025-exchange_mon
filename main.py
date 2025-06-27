@@ -15,8 +15,8 @@ def cotizacion_de(moneda, moneda_ref):
 
 
 def muestra_cotizaciones():
-    moneda_ref = 'EUR'
-    monedas = ['BTC', 'ETH']
+    moneda_ref = 'USD'
+    monedas = ['EUR', 'JPY', 'TND', 'RUB']
     buffer = []
 
     for moneda in monedas:
